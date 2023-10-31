@@ -1,4 +1,6 @@
 #DEFINIR UNA TUPLA
+import math
+
 print("Definir una tupla")
 cocina = ("cuchara", "cuchillo", "tenedor")
 print(cocina)
@@ -59,6 +61,14 @@ for elementos in tupla:
     if elementos < 5:
         lista.append(elementos)
 print(lista)
+
+# Ejercicio de matematicas
+# para sacar la raiz cuadrada de un numero positivo
+numero = int(input("Digite un numero positivo: "))
+while numero < 0:
+    print("Error -> Deberia ser un numero positivo")
+    numero = int(input("Digite un numero positivo: "))
+print(f'\nSu raiz cuadrada es: {math.sqrt(numero):.2f}')
 
 # Tipo set
 planetas = {'Marte','Jupiter', 'Venus'}
@@ -239,13 +249,13 @@ print(diccionario2)
 seleccionArgentina = {
     10: {'Nombre': 'Lionel Messi', 'Edad': 35, 'Altura': 1.70, 'Precio': '50 Millones', 'Posicion': 'Extremo derecho'},
     11: {'Nombre': 'Angel Di Maria', 'Edad': 34, 'Altura': 1.80, 'Precio': '12 Millones', 'Posicion': 'Extremo derecho'},
-    24:{'Nombre': 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77, 'Precio': '35 Millones', 'Posicion': 'Media Punta'},
-    19:{'Nombre': 'Nicolas Otamendi', 'Edad': 34, 'Altura': 1.83, 'Precio': '3.5 Millones', 'Posicion': 'Defensa Central'},
-    1:{'Nombre': 'Franco Armani', 'Edad': 37, 'Altura': 1.89, 'Precio': '3.5 Millones', 'Posicion': 'Arquero'},
-    22:{'Nombre': 'Lautaro Martinez', 'Edad': 26, 'Altura': 1.75, 'Precio': '30 Millones', 'Posicion': 'Delantero'},
-    9:{'Nombre': 'Julian Alvarez', 'Edad': 23, 'Altura': 1.81, 'Precio': '40 Millones', 'Posicion': 'Delantero'},
-    16:{'Nombre': 'Thiago Almada', 'Edad': 22, 'Altura': 1.84, 'Precio': '25 Millones', 'Posicion': 'Medio Campo'},
-    15:{'Nombre': 'Rodrigo De Paul', 'Edad': 35, 'Altura': 1.88, 'Precio': '10 Millones', 'Posicion': 'Medio Campo'}
+    21: {'Nombre': 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77, 'Precio': '35 Millones', 'Posicion': 'Media Punta'},
+    19: {'Nombre': 'Nicolas Otamendi', 'Edad': 34, 'Altura': 1.83, 'Precio': '3.5 Millones', 'Posicion': 'Defensa Central'},
+    1: {'Nombre': 'Franco Armani', 'Edad': 37, 'Altura': 1.89, 'Precio': '3.5 Millones', 'Posicion': 'Arquero'},
+    22: {'Nombre': 'Lautaro Martinez', 'Edad': 26, 'Altura': 1.75, 'Precio': '30 Millones', 'Posicion': 'Delantero'},
+    9: {'Nombre': 'Julian Alvarez', 'Edad': 23, 'Altura': 1.81, 'Precio': '40 Millones', 'Posicion': 'Delantero'},
+    16: {'Nombre': 'Thiago Almada', 'Edad': 22, 'Altura': 1.84, 'Precio': '25 Millones', 'Posicion': 'Medio Campo'},
+    15: {'Nombre': 'Rodrigo De Paul', 'Edad': 35, 'Altura': 1.88, 'Precio': '10 Millones', 'Posicion': 'Medio Campo'}
 }
 for llaves in seleccionArgentina.items():
     print(llaves, valor)
@@ -296,3 +306,7 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'Atendido el cliente: {seRetira}')
 print(cola)
+
+#Seguimos mostrando como recorrer un diccionario con el ciclo for
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina}')
