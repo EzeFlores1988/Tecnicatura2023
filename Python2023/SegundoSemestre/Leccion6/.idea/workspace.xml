@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eadaa94e-007d-44e0-ac53-0e2e1c73bdca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javascript/Leccion03/03-01-OperadoresJavaScript-UJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Javascript/Leccion03/03-01-OperadoresJavaScript-UJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javascript/Leccion04/04-01-Ejercicios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Javascript/Leccion04/04-01-Ejercicios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javascript/Leccion04/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Javascript/Leccion04/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javascript/Sintaxis Js y Java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Javascript/Sintaxis Js y Java.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
